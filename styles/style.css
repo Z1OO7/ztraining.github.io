@@ -213,6 +213,10 @@ footer{
 	padding-bottom: 20px;
 }
 /*SERVICE SECTION */
+.content-wrapper {
+  position: relative;
+  top: 12%; /* adjust the value based on your design */
+}
 
 .S-section {
   display: flex;
@@ -536,6 +540,6 @@ td {
 
 @media only screen and (max-width: 600px) {
   .nav-bar {
-    height: 10%;
+    height:a 10%;
   }
 }
