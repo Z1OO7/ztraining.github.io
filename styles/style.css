@@ -531,3 +531,8 @@ td {
 	overflow-wrap: break-word;
 }
 
+@media only screen and (max-width: 600px) {
+  .nav-bar {
+    height: 8vh;
+  }
+}
