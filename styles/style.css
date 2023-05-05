@@ -54,6 +54,11 @@ footer{
 	background-color: black;
 	width: 100%;
 }
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    height: 8%;
+  }
+}
 .logo{
 	width: 200px;
 	cursor: pointer;
@@ -456,9 +461,8 @@ footer{
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/motiv.jpg);
-  padding: 8% 17%;
+  padding: 8% 17% 4.9%;
 }
-
 
 .form {
 	border-radius: 10px;
