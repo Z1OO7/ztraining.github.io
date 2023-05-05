@@ -219,11 +219,27 @@ footer{
 	padding-left: 8%;
 	box-sizing: border-box;
 }
-.T-section{
-	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../src/motiv.jpg);
-	align-items: center;
-	padding: 15% 17%;
+.T-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/motiv.jpg);
+  padding: 20% 17%;
 }
+
+.T-title {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.serv-type {
+  font-family: fantasy;
+  font-size: 50px;
+  color: red;
+  margin-bottom: 30px;
+}
+
 .serv{
 	justify-content: space-between;
 	box-sizing: border-box;
@@ -240,12 +256,6 @@ footer{
 	margin: 10px;
 	background-position: center;
 	background-size: cover;
-}
-.serv-type{
-	text-align: center;
-	font-family: fantasy;
-	font-size: 50px;
-	color: red;
 }
 .serv h5{
 	margin: 125% 0%;
