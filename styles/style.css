@@ -218,8 +218,8 @@ footer{
 	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../src/motiv.jpg);
 	background-position: center;
 	background-size: cover;
-
-	padding-left: 17%;
+	padding-right: 8%;
+	padding-left: 8%;
 	box-sizing: border-box;
 }
 .serv{
@@ -232,17 +232,15 @@ footer{
 	height: 180px;
 	display: inline-block;
 	border-radius: 100px;
-	padding: 0px 15px;
+	padding: 0px 10px;
 	box-shadow: border-box;
 	cursor: pointer;
-	margin: 15px;
-	background-image: ;
+	margin: 10px;
 	background-position: center;
 	background-size: cover;
 }
 .serv-type{
 	text-align: center;
-	padding-right: 18%;
 	font-family: fantasy;
 	font-size: 50px;
 	color: red;
@@ -501,7 +499,7 @@ td {
 .bods-reference{
 	
 	width: 90%;
-	margin-top: 15%;
+	margin-top: 8%;
 	padding-bottom: 1%;
 	background-color: white;
 	position: absolute;
