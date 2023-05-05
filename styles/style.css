@@ -210,7 +210,7 @@ footer{
 }
 /*SERVICE SECTION */
 
-.T-section {
+.S-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -219,7 +219,7 @@ footer{
   padding: 13% 17%;
 }
 
-.T-title {
+.S-title {
   flex-basis: 100%;
   text-align: center;
 }
@@ -456,7 +456,7 @@ footer{
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/motiv.jpg);
-  padding: 13% 17%;
+  padding: 17% 17%;
 }
 
 .form {
