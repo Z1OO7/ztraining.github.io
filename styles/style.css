@@ -1,0 +1,520 @@
+*{
+	margin: 0;
+	padding: 0;
+	overflow: ;
+	box-sizing: border-box;
+}
+html {
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+body {
+	background-color: white;
+	overflow-y: scroll;
+}
+h1{
+	text-align: center;
+}
+footer{
+	text-align: center;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+.serv-btn:hover,.serv-btn:focus, .serv-btn:active {
+  outline: none;
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/*MAIN SECTION*/
+.container-home{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../src/motiv.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 20%;
+	box-sizing: border-box;
+}
+.container-registration{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../src/motiv.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 14%;
+	padding-right: 14%;
+	box-sizing: border-box;
+}
+.nav-bar{
+	position: absolute;
+	right:-.1px;
+	height: 12%;
+	display: flex;
+	align-items: center;
+	background-color: black;
+	width: 100%;
+}
+.logo{
+	width: 200px;
+	cursor: pointer;
+	margin:0px 50px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+	margin:0px 50px;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 25px;
+	box-shadow: inset 0 0 0 0 #54b3d6;
+	color: white;
+	margin: 0 -.25rem;
+	transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+	box-shadow: inset 100px 0 0 0 #54b3d6;
+	color: white;
+}
+.bods{
+	box-sizing: border-box;
+	padding-top: 15%;
+	height: 90%;
+	align-items: center;
+}
+.conts{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.conts h1{
+	color:red;
+	font-size: 150px;  
+	margin-left: 19%;
+}
+.conts p{
+	margin-left: 15%;
+	text-align: justify;
+	color: white;
+	font-size: 25px;
+	line-height: 30px;
+}
+.bods p b {
+	color: red;
+}
+.btn {
+	width: 190px;
+	color: white;
+	font-size: 12px;
+	line-height: 15px;
+	margin: 0;
+	padding: 12px 0;
+	background: transparent;
+	border: 2px solid white;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
+}
+.btn a{
+	display: inline-block; 
+	text-decoration: none;
+	width: 170px;
+	border-radius: 25px;
+}
+a .btn:hover {
+	text-decoration: none;
+	background-color: skyblue;
+	transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.home-btn {
+	font-size: .1px;
+	padding-top: 20px;
+	padding-left: 15%;
+	text-align: center; 
+}
+.about-us {
+	background-color: #2B8DBE;
+	padding: 50px;
+	text-align: center;
+}
+.about-us h1 {
+	font-family: tahoma;
+	color: white;
+	font-size: 2.5em;
+	margin-bottom: 20px;
+}
+.about-us p {
+	font-family: tahoma;
+	color: white;
+	line-height: 1.5;
+	padding: 1% 20%;
+	font-size: 20px;
+}
+.third{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../src/gym_girl.jfif);
+	background-position: center;
+	background-size: cover;
+	padding: 5% 10%;
+	text-align: center;
+}
+.third h1{
+	font-weight: 800;
+	font-family: tahoma;
+	color: white;
+	font-size: 2em;
+	margin-bottom: 50px;
+}
+.third h3{
+	font-weight: 700;
+	font-family: tahoma;
+	color: white;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+.third p {
+	font-family: tahoma;
+	color: white;
+	font-size: 1.2em;
+	line-height: 1.5;
+	margin-bottom: 0px;
+	padding: 1% 15%;
+	font-size: 20px;
+}
+.contact{
+	color: grey;
+	background-color: black;
+	padding: 5% 10% 0% 10%;
+	text-align: center;
+}
+.tindex{
+	background-color: transparent;
+	border: 2px solid grey;
+	border-radius: 15px;
+	margin: auto;
+}
+.conts{
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+footer{
+	margin: 40px 0 0 0;
+	padding-bottom: 20px;
+}
+/*SERVICE SECTION */
+.container-service{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../src/motiv.jpg);
+	background-position: center;
+	background-size: cover;
+
+	padding-left: 17%;
+	box-sizing: border-box;
+}
+.serv{
+	justify-content: space-between;
+	box-sizing: border-box;
+	position: relative;
+	top: 30px;
+	border: 1px solid black;
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	border-radius: 100px;
+	padding: 0px 15px;
+	box-shadow: border-box;
+	cursor: pointer;
+	margin: 15px;
+	background-image: ;
+	background-position: center;
+	background-size: cover;
+}
+.serv-type{
+	text-align: center;
+	padding-right: 18%;
+	font-family: fantasy;
+	font-size: 50px;
+	color: red;
+}
+.serv h5{
+	margin: 125% 0%;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	line-height: 30px;
+	font-size: 25px;
+}
+.dumbells{
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: 75%;
+	background-image: url(../src/dumbells.png);
+}
+.train{
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: 75%;
+	background-image: url(../src/train.png)
+}
+.calendar{
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-image: url(../src/calendar.png)
+}
+.apple{
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-image: url(../src/apple.png)
+}
+.sub-btn{
+	background-color: green;
+	color: white;
+	padding: 10px 20px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	font-size: 15px;
+	float: center;
+}
+.sub-btn:hover {
+	background-color: red;
+}
+.serv-title{
+
+	border-radius: 15px;
+	margin: 10px 0px 20px 0px;
+	background-color: lightblue;
+	padding: 10px;
+	color: red;
+}
+.item-content h1{
+	color: white;
+	font-size: 50px;
+	padding-top: 30%;
+	padding-bottom: 30%;
+}
+.container-2{
+	padding: 0px 20px 20px ;
+    width: 100%;
+}
+.holder{
+    width: 100%;
+    height: 570px;
+    overflow: hidden;
+}
+.item-holder{
+	padding-top: 5px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.item{
+    width: 100%;
+	height:100%;
+	display: flex;
+    flex-direction: row;
+	align-items: center;
+	overflow: hidden;
+	padding: 20px;
+}
+.item-content{
+	border: 4px solid gray;
+	border-radius: 25px;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	height: 80%;
+	width: 50%;
+	margin: 0px 10px 50px 20px;
+}
+.Arrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 45px; 
+	padding-right: 35px; 
+	padding-top: 100px;; 
+}
+.Arrows > a i {
+	font-size: 50px;
+}
+.Arrows > a > i{
+    color: gray;
+}
+.Arrows > a i:hover {
+	color: green;
+	cursor: pointer;
+}
+:root {
+  --bg-gradient: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+  --overlay-gradient: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+}
+
+.bg-image {
+    background-size: cover;
+	background-position: center;
+}
+#item-1E{
+    background-image:  var(--bg-gradient),url(../src/cardio-machine.jpeg);
+}
+#item-2E{
+    background-image:  var(--bg-gradient),url(../src/powerline.jpg);
+}
+#item-3E{
+    background-image:  var(--bg-gradient),url(../src/weights.jpg);
+}
+#item-4E{
+    background-image:  var(--bg-gradient),url(../src/cable-machine.jpg);
+}
+#item-1T{
+    background-image:  var(--bg-gradient),url(../src/trainer.jpg);
+}
+#item-2T{
+    background-image:  var(--bg-gradient),url(../src/group.jpg);
+}
+#item-3T{
+    background-image: url(../src/specific.jpg);
+}
+#item-4T{
+    background-image: var(--overlay-gradient),url(../src/rehab-pt.jpg);
+}
+#item-1C{
+    background-image:  var(--bg-gradient),url(../src/Strength-class.jpg);
+}
+#item-2C{
+    background-image:  var(--bg-gradient),url(../src/Hardwork.jpg);
+}
+#item-3C{
+    background-image:  var(--bg-gradient),url(../src/yoga.jpg);
+}
+#item-4C{
+    background-image: var(--overlay-gradient),url(../src/thai.jpg);
+}
+#item-1W{
+    background-image: var(--overlay-gradient),url(../src/nutrition.png);
+}
+#item-2W{
+    background-image:  var(--bg-gradient),url(../src/wellness.jpg);
+}
+#item-3W{
+    background-image:  var(--bg-gradient),url(../src/health.png);
+}
+#item-4W{
+    background-image: var(--overlay-gradient),url(../src/education.jpg);
+}
+#item-description{
+	text-align: center;
+	align-self: center;
+}
+.item-content + #item-description{
+	background-color: #FFE7E2;
+}
+#item-description p{
+	text-align: justify;
+	font-size: 1.5em;
+	margin: auto;
+	text-indent: 2em;
+}
+/*REGISTRATION SECTION*/
+.form {
+	border-radius: 10px;
+	align-items: left;
+	padding: 10px;
+	font-size: 20px;
+}
+fieldset {
+	background-color: white;
+	border-radius: 15px;
+	padding: 10px 0px;
+}
+fieldset h1 {
+	padding-left: 10px;
+}
+input,
+select,
+textarea {
+	margin: 10px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 0.5px solid black;
+}
+td {
+	padding: 10px;
+}
+.submit-btn {
+	background-color: skyblue;
+	color: white;
+	padding: 12px 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	font-size: 15px;
+	float: right;
+}
+.submit-btn:hover {
+	background-color: red;
+}
+
+/*REFERENCE SECTION*/
+.container-reference{
+	background-position: center;
+	background-size: cover;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+}
+.reference{
+	padding-bottom: 4%;
+	background-color: white;
+}
+.ref-title{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.bods-reference{
+	
+	width: 90%;
+	margin-top: 8%;
+	padding-bottom: 1%;
+	background-color: white;
+	position: absolute;
+	z-index: -1;
+}
+.bods-reference p {
+	text-indent: -2em;
+	box-sizing: border-box;
+	padding: 5px 100px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	max-width: 100%;
+	overflow-wrap: break-word;
+}
