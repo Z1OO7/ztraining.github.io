@@ -455,7 +455,7 @@ footer{
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/motiv.jpg);
-  padding: 15%;
+  padding: 9%;
 }
 
 .form {
@@ -520,7 +520,7 @@ td {
 .bods-reference{
 	
 	width: 90%;
-	margin-top: 15%;
+	margin-top: 7%;
 	padding-bottom: 1%;
 	background-color: white;
 	position: absolute;
@@ -536,10 +536,4 @@ td {
 	color: #333;
 	max-width: 100%;
 	overflow-wrap: break-word;
-}
-
-@media only screen and (max-width: 600px) {
-  .nav-bar {
-    height:a 10%;
-  }
 }
