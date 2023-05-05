@@ -2,11 +2,6 @@
 	background-color: black;
 	width: 100%;
 }
-@media screen and (max-width: 600px) {
-  .nav-bar {
-    height: 12%;
-  }
-}
 .logo{
 	width: 200px;
 	cursor: pointer;
@@ -200,15 +195,6 @@ footer{
 	margin: 10px;
 	background-position: center;
 	background-size: cover;
-}
-@media screen and (max-width: 600px) {
-  .serv-type {
-    font-size: 30px;
-  }
-  .S-section {
-    flex-direction: column;
-    padding: 25% 5%;
-  }
 }
 .serv h5{
 	margin: 125% 0%;
