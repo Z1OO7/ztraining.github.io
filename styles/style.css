@@ -518,3 +518,10 @@ td {
 	max-width: 100%;
 	overflow-wrap: break-word;
 }
+@media (max-width: 387px) {
+  .bods-reference {
+    position: relative;
+    z-index: auto;
+    margin-top: 30%;
+    padding-bottom: 2%;
+  }
