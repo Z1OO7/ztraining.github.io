@@ -216,7 +216,7 @@ footer{
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/motiv.jpg);
-  padding: 13% 17%;
+  padding: 15% 17%;
 }
 
 .S-title {
@@ -456,13 +456,9 @@ footer{
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/motiv.jpg);
-  padding: 17% 17%;
+  padding: 8% 17%;
 }
-@media screen and (max-width: 600px) {
-  .R-section {
-    padding: 25% 5%;
-  }
-}
+
 
 .form {
 	border-radius: 10px;
