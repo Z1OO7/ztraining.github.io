@@ -249,15 +249,6 @@ footer{
 	background-position: center;
 	background-size: cover;
 }
-@media screen and (max-width: 600px) {
-  .serv-type {
-    font-size: 30px;
-  }
-  .S-section {
-    flex-direction: column;
-    padding: 25% 5%;
-  }
-}
 .serv h5{
 	margin: 125% 0%;
 	text-align: center;
@@ -457,7 +448,7 @@ footer{
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/motiv.jpg);
-  padding: 8% 17% 4.9%;
+  padding: 15%;
 }
 
 .form {
@@ -522,7 +513,7 @@ td {
 .bods-reference{
 	
 	width: 90%;
-	margin-top: 8%;
+	margin-top: 15%;
 	padding-bottom: 1%;
 	background-color: white;
 	position: absolute;
