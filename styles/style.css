@@ -22,9 +22,9 @@ footer{
 	display: none;
 }
 .serv-btn:hover,.serv-btn:focus, .serv-btn:active {
-  outline: none;
-  box-shadow: none;
-  -webkit-tap-highlight-color: transparent;
+	outline: none;
+	box-shadow: none;
+	-webkit-tap-highlight-color: transparent;
 }
 
 /*MAIN SECTION*/
@@ -34,28 +34,24 @@ footer{
 	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../src/motiv.jpg);
 	background-position: center;
 	background-size: cover;
-	padding-left: 8%;
-	padding-right: 20%;
 	box-sizing: border-box;
 }
 .container{
-  width: 100%;
-  height: auto;
-  padding-right: 8%;
-  padding-left: 8%;
-  box-sizing: border-box;
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
 }
 
 .nav-bar{
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 12%;
-  display: flex;
-  align-items: center;
-  background-color: black;
-  width: 100%;
-  z-index: 999;
+
+	padding: 10px 0 10px 0;
+	left: 0;
+	height: 12%;
+	display: flex;
+	align-items: center;
+	background-color: black;
+	width: 100%;
+
 }
 
 .logo{
@@ -89,7 +85,6 @@ a:hover {
 }
 .bods{
 	box-sizing: border-box;
-	padding-top: 15%;
 	height: 90%;
 	align-items: center;
 }
@@ -102,10 +97,10 @@ a:hover {
 .conts h1{
 	color:red;
 	font-size: 150px;  
-	margin-left: 19%;
+
 }
 .conts p{
-	margin-left: 15%;
+	padding: 0px 5%;
 	text-align: justify;
 	color: white;
 	font-size: 25px;
@@ -141,12 +136,12 @@ a .btn:hover {
 .home-btn {
 	font-size: .1px;
 	padding-top: 20px;
-	padding-left: 15%;
+	
 	text-align: center; 
 }
 .about-us {
 	background-color: #2B8DBE;
-	padding: 50px;
+	padding: 60px;
 	text-align: center;
 }
 .about-us h1 {
@@ -213,30 +208,27 @@ footer{
 	padding-bottom: 20px;
 }
 /*SERVICE SECTION */
-.content-wrapper {
-  position: relative;
-  top: 12%; /* adjust the value based on your design */
-}
+
 
 .S-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/motiv.jpg);
-  padding: 15% 17%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/motiv.jpg);
+	padding: 9% 10%;
 }
 
 .S-title {
-  flex-basis: 100%;
-  text-align: center;
+	flex-basis: 100%;
+	text-align: center;
 }
 
 .serv-type {
-  font-family: fantasy;
-  font-size: 4vw;
-  color: red;
-  margin-bottom: 30px;
+	font-family: fantasy;
+	font-size: 4vw;
+	color: red;
+	margin-bottom: 30px;
 }
 
 .serv{
@@ -264,27 +256,24 @@ footer{
 	line-height: 30px;
 	font-size: 25px;
 }
-.dumbells{
+div .serv {
 	background-color: white;
 	background-repeat: no-repeat;
+}
+
+.dumbells{
 	background-size: 75%;
 	background-image: url(../src/dumbells.png);
 }
 .train{
-	background-color: white;
-	background-repeat: no-repeat;
 	background-size: 75%;
 	background-image: url(../src/train.png)
 }
 .calendar{
-	background-color: white;
-	background-repeat: no-repeat;
 	background-size: 90%;
 	background-image: url(../src/calendar.png)
 }
 .apple{
-	background-color: white;
-	background-repeat: no-repeat;
 	background-size: 60%;
 	background-image: url(../src/apple.png)
 }
@@ -305,9 +294,8 @@ footer{
 	background-color: red;
 }
 .serv-title{
-
 	border-radius: 15px;
-	margin: 10px 0px 20px 0px;
+	margin: 20px 0px 20px 0px;
 	background-color: lightblue;
 	padding: 10px;
 	color: red;
@@ -350,7 +338,7 @@ footer{
 	padding-right: 50px;
 	height: 80%;
 	width: 50%;
-	margin: 0px 10px 50px 20px;
+	margin: 0px 10px 60px 20px;
 }
 .Arrows{
     position: absolute;
@@ -450,12 +438,12 @@ footer{
 /*REGISTRATION SECTION*/
 
 .R-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/motiv.jpg);
-  padding: 9%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/motiv.jpg);
+	padding: 4%;
 }
 
 .form {
@@ -505,8 +493,6 @@ td {
 .container-reference{
 	background-position: center;
 	background-size: cover;
-	padding-left: 5%;
-	padding-right: 5%;
 	box-sizing: border-box;
 }
 .reference{
@@ -514,12 +500,11 @@ td {
 	background-color: white;
 }
 .ref-title{
-	margin-top: 30px;
 	margin-bottom: 30px;
 }
 .bods-reference{
 	
-	width: 90%;
+	width: 100%;
 	margin-top: 7%;
 	padding-bottom: 1%;
 	background-color: white;
@@ -529,7 +514,7 @@ td {
 .bods-reference p {
 	text-indent: -2em;
 	box-sizing: border-box;
-	padding: 5px 100px;
+	padding: 5px 150px;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 16px;
 	line-height: 1.5;
